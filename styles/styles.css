@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #fbe9e7;
+  font-family: 'Lato', sans-serif;
+  min-height: 100vh;
+}
+
+body .header {
+  background-color: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 12px 40px;
+}
+
+body .header .logo-wrapper {
+  width: 100px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+body .header .logo-wrapper .logo {
+  display: block;
+  width: 100%;
+}
+
+body .header .links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  body .header .links-wrapper {
+    display: none;
+  }
+}
+
+body .header .links-wrapper .link {
+  color: #1a237e;
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-right: 23px;
+}
+
+body .header .links-wrapper .link:hover {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  body .header .links-wrapper .link {
+    font-size: 0.8em;
+    margin-right: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
